@@ -405,7 +405,7 @@ Header Style
 
 .header-area {
   position: relative;
-  background-color: #fff;
+  background-color: teal;
   height: 100px;
   z-index: 100;
   -webkit-transition: all .5s ease 0s;
