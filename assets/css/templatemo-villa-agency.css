@@ -1844,3 +1844,14 @@ body {
     margin-right: 100px;
   }
 }
+#llt{
+  border: white;
+  border-radius: 4px;
+  box-shadow: 10px 10px 0px rgb(201, 199, 199);
+  background-color: white;
+  padding: 5%;
+}
+.line-lt{
+text-transform: uppercase;
+font-size: bold;
+}
