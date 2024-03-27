@@ -760,14 +760,15 @@ Banner Style
   background-size: cover;
   padding: 220px 20% 320px 20%;
   margin-top: 0px;
+  height: 20px;
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-01.jpg);
+  background-image: url('https://s.alicdn.com/@sc04/kf/H6da0cbbf63db4850a0b85e397bde844fz.jpg');
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banner-02.jpg);
+  background-image: url(../images/banner-01.jpg);
 }
 
 .main-banner .item-3 {
@@ -781,7 +782,7 @@ Banner Style
   font-weight: 500;
   text-transform: capitalize;
   padding: 6px 15px;
-  display: inline-block;
+  
   margin-bottom: 30px;
 }
 
@@ -791,32 +792,30 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 62px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
-  line-height: 72px;
-  width: 50%;
+  color: #035757;
   margin-bottom: 0px;
 }
 
 .main-banner .owl-dots {
   position: absolute;
-  bottom: 60px;
+  bottom: 90px;
   left: 20%;
 }
 
 .main-banner .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #fff;
+  background-color: #0e0d0d;
   border-radius: 50%;
   margin-right: 10px;
   transition: all .5s;
 }
 
 .main-banner .owl-dots .active {
-  background-color: #f35525;
+  background-color: #fa4444;
 }
 
 .main-banner .owl-nav {
@@ -833,8 +832,8 @@ Banner Style
   line-height: 50px;
   font-size: 24px;
   display: inline-block;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
+  color: #fc3d3d;
+  background-color: rgba(5, 5, 5, 0.2);
   border-radius: 50%;
   opacity: 1;
   transition: all .3s;
@@ -1397,6 +1396,7 @@ Page Header Style
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #0e0d0d;
   padding: 110px 0px;
   text-align: center;
 }
