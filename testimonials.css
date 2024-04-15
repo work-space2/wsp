@@ -3,9 +3,9 @@
     height: 100%;
     background: #b9cdf1;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f35525, #f35525);
+    background: -webkit-linear-gradient(to right, #242323, #202020);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f35525, #f35525);
+    background: linear-gradient(to right, #272727, #272727);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -21,7 +21,7 @@
 
 .t-card {
     padding: 1.8125rem 1.125rem;
-    background-color: #f13e07;
+    background-color: #9c9c9c;
     border-radius: 1.25rem;
     color: #0c0c0c;
     height: auto;
@@ -36,6 +36,10 @@
     border-left: 1.5625rem solid transparent;
     border-right: 1.5625rem solid transparent;
     border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+.client-name{
+    color: antiquewhite;
 }
 .testimonial_subtitle{
   color: white;
